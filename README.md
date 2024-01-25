@@ -1,28 +1,39 @@
 
+Our model can generate long-form, variable-length stereo music at 44.1kHz:
 
-<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
 
-# **Documentatasdfasdfasdfasdfasfasdfasdfasdfion**
-> How this project works and how to maintain your own
+And stereo sound effects at 44.1kHz:
+
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
 
 
-
-## About
+## Autoencoder: reconstruction examples
 
 This project is built around using markdown content to make a website. 
 
-This is great for non-developers to work on. No experience with Ruby, Jekyll, Liquid, HTML or CSS required. Those are all used internally, but you don't need to worry about that.
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
 
-This repo is super light. No config needed. You don't need to setup a theme or a layout. GitHub will figure that out and will apply its standard theme to your GitHub Pages site. So will it will have a clean, white, mobile-friendly site with a heading. The limitations are covered more on these pages, such as lack of a navbar. But you can still setup links to pages, as with the Menu below.
+## Stereo sound effects
 
-The page you are currently viewing is `README.md` in the docs directory, with path set as `/` in the frontmatter. Alternatively, you can add `index.md` or `index.html` as your homepage. I just like how a README.md previews well in GitHub.
+This project is built around using markdown content to make a website. 
+
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
+
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
+
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
 
 
-## How to use this project
 
-- Template for a new project or docs site. Or use as a reference for existing projects.
-- Read the tutorial content under template notes.
-- View this live demo site.
+## Comparing with the state-of-the-art
+
+|Text|Our model| MusicGen-large| MusicGen-stereo| AudioLDM2| 
+|Prompt| (stereo, 44.1kHz) | (mono, 32kHz)| (stereo, 32kHz)| (mono, 48kHz)|| 
+|-|-|-|-|-|
+| Blah | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+| Blah | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+
 
 
 ## Menu
