@@ -1,6 +1,9 @@
 ---
 permalink: /
 ---
+
+<audio controls preload="metadata"><source src="103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+
 # **Documentation**
 > How this project works and how to maintain your own
 
