@@ -77,14 +77,14 @@ Note that the rest of examples in this website (95 sec music, or 10 sec sound ef
 | Model | Audiogen-medium | AudioLDM2 |
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(mono, 48kHz)* |
 | ------ | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/ZTVMsW1h3bI_stableaudio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_musicgenlarge.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_musicgenstereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| <audio controls preload=False><source src="audio/103136_stableaudio_audio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103136_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt #2**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
 
 | Model | Audiogen-medium | AudioLDM2 |
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(mono, 48kHz)* |
 | ------ | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/ZTVMsW1h3bI_stableaudio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_musicgenlarge.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_musicgenstereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| <audio controls preload=False><source src="audio/37008_stableaudio_audio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/37008_audiogen_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/37008_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ## Autoencoder: reconstruction examples
 
