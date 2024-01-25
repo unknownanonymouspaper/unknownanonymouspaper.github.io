@@ -1,11 +1,11 @@
 
 Our model can generate long-form, variable-length stereo music at 44.1kHz:
 
-<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
 And stereo sound effects at 44.1kHz:
 
-<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> (95 sec)
+<audio controls preload="metadata"><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
 
 ## Autoencoder: reconstruction examples
@@ -26,34 +26,24 @@ This project is built around using markdown content to make a website.
 
 
 
-## Comparing with the state-of-the-art
+## Long-form stereo music: comparison with state-of-the-art
 
 | |Our model| MusicGen-large| MusicGen-stereo| AudioLDM2| 
-| | (stereo, 44.1kHz) | (mono, 32kHz)| (stereo, 32kHz)| (mono, 48kHz)|| 
+| | (stereo, 44.1kHz) | (mono, 32kHz)| (stereo, 32kHz)| (mono, 48kHz)|
 |-|-|-|-|-|
-| Blah | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_stableaudio.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_musicgenlarge.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_musicgenstereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_audioldm248k_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
-| Blah | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_stableaudio.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_musicgenlarge.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_musicgenstereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_audioldm248k_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+| This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_stableaudio.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_musicgenlarge.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_musicgenstereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_audioldm248k_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+| The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting. | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_stableaudio.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_musicgenlarge.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_musicgenstereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_audioldm248k_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
 
 
+## Sound effects: : comparison with state-of-the-art
 
-## Menu
-
-Some info on how to make a site like this and how it works.
-
-- [About](about.md)
-- [Features](features.md)
-- [Limitations](limitations.md)
-- [What about a Wiki?](wiki.md)
+| |Our model| MusicGen-large| MusicGen-stereo| AudioLDM2| 
+| | (stereo, 44.1kHz) | (mono, 32kHz)| (stereo, 32kHz)| (mono, 48kHz)|
+|-|-|-|-|-|
+| This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_stableaudio.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_musicgenlarge.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_musicgenstereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZTVMsW1h3bI_audioldm248k_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+| The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting. | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_stableaudio.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_musicgenlarge.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_musicgenstereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload="metadata"><source src="audio/ZK5M3DZejzk_audioldm248k_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
 
 
-## Source
+## Variable-length music
 
-View source on GitHub:
-
-[![MichaelCurrin - gh-pages-no-jekyll](https://img.shields.io/static/v1?label=MichaelCurrin&message=gh-pages-no-jekyll&color=blue&logo=github)](https://github.com/MichaelCurrin/gh-pages-no-jekyll)
-
-
-## Documentation template
-
-If you're looking for template docs which you can easily edit and reuse for your own site, rather see my [Generic Project Template](https://michaelcurrin.github.io/generic-project-template/) project's docs. It uses the same docs site approach as this one.
 
