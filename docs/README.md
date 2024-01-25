@@ -1,17 +1,10 @@
----
-permalink: /
----
+
 
 <audio controls preload="metadata"><source src="103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-# **Documentation**
+# **Documentatasdfasdfasdfasdfasfasdfasdfasdfion**
 > How this project works and how to maintain your own
 
-<div align="center">
-    <a href="https://github.com/MichaelCurrin/gh-pages-no-jekyll/generate">
-        <img src="https://img.shields.io/badge/Use_this_template-Generate-2ea44f?style=for-the-badge" alt="Use this template">
-    </a>
-</div>
 
 
 ## About
