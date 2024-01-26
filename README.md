@@ -11,10 +11,12 @@ Differently from pervious state-of-the-art models, ours can generate **stereo so
 
 | Generated Sounds | Prompt |
 | --------------- | ------ |
-| <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality. Stereo. |
 | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Sports car passing by. High-quality. Stereo. |
+| <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality. Stereo. |
 | <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fire crackling. High-quality. |
 | <audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Hammering wood at 120 bpm. |
+| <audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Hammering wood at 120 bpm. |
+
 
 Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo.
 
