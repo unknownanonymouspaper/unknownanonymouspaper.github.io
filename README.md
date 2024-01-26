@@ -16,7 +16,7 @@ Differently from pervious state-of-the-art models, ours can generate **stereo so
 | <audio controls preload=False><source src="audio/fireworks-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fireworks. High-fidelity, stereo. |
 | <audio controls preload=False><source src="audio/ocean-waves-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Ocean waves. High-quality, stereo. |
 
-Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo. We append "high-fidelity, stereo" because it tends to deliver better results.
+Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo. We append "high-fidelity, stereo" to our prompts because it is generally helpful.
 
 ## Long-form stereo music: comparison with state-of-the-art
 
