@@ -1,7 +1,7 @@
 
 Our model can generate **variable-length and long-form stereo music at 44.1kHz**:
 
-| Generated Audio | Prompt |
+| Generated Music | Prompt |
 | --------------- | ------ |
 | <audio controls preload=False><source src="audio/Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM |
 | <audio controls preload=False><source src="audio/Calm meditation music to play in a spa lobby.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Calm meditation music to play in a spa lobby |
@@ -9,12 +9,12 @@ Our model can generate **variable-length and long-form stereo music at 44.1kHz**
 
 Differently from pervious state-of-the-art models, ours can generate **stereo sound effects at 44.1kHz**:
 
-| Generated Audio | Prompt |
+| Generated Sounds | Prompt |
 | --------------- | ------ |
 | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality. Stereo. |
 | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Sports car passing by. High-quality. Stereo. |
 | <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fire crackling. High-quality. |
-| <audio controls preload=False><source src="audio/ham.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Hammering wood at 120 bpm. |
+| <audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Hammering wood at 120 bpm. |
 
 Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo.
 
