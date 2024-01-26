@@ -3,9 +3,16 @@ Our model can generate long-form, variable-length stereo music at 44.1kHz like t
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-And stereo sound effects at 44.1kHz like this one:
+And stereo sound effects at 44.1kHz like those ones:
+
+Prompt #1: Motorbike passing by. High-quality. Stereo.
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+
+Prompt #2: Sports car passing by. High-quality. Stereo.
+
+<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+
 
 ## Stereo sound effects
 
