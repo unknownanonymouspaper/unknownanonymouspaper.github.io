@@ -11,14 +11,14 @@ Differently from pervious state-of-the-art models, ours can generate **stereo so
 
 | Generated Sounds | Prompt |
 | --------------- | ------ |
-| <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Sports car passing by. High-quality. Stereo. |
-| <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality. Stereo. |
+| <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Sports car passing by. High-quality, stereo. |
+| <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fire crackling. High-quality. |
-| <audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Hammering wood at 120 bpm. |
-| <audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Hammering wood at 120 bpm. |
+| <audio controls preload=False><source src="audio/ocean-waves-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Ocean waves. High-quality, stereo. |
+| <audio controls preload=False><source src="audio/helicopter-high-fidelity-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Helicopter. High-fidelity, stereo. |
+| <audio controls preload=False><source src="audio/fireworks-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fireworks. High-fidelity, stereo. |
 
-
-Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo.
+Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo. We append "high-fidelity, stereo" because it tends to deliver better results.
 
 ## Long-form stereo music: comparison with state-of-the-art
 
