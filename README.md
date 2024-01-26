@@ -9,7 +9,7 @@ Our model can generate **variable-length and long-form stereo music at 44.1kHz**
 | <audio controls preload=False><source src="audio/Calm meditation music to play in a spa lobby.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Calm meditation music to play in a spa lobby. |
 | <audio controls preload=False><source src="audio/drum solo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Drum solo. |
 
-Differently from pervious state-of-the-art models, ours can generate **variable-length, stereo sound effects at 44.1kHz**:
+Differently from pervious state-of-the-art models, ours can generate **stereo sound effects at 44.1kHz**:
 
 | Generated Stereo Sounds | Prompt |
 | --------------- | ------ |
