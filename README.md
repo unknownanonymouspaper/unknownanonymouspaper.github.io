@@ -85,11 +85,7 @@ Note that the rest of examples in this website (95 sec music, or 10 sec sound ef
 
 ## Autoencoder: reconstruction examples
 
-This experiment is to evaluate the audio fidelity capabilities of the autoencoder.
-
-On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder.
-
-Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
+This experiment is to evaluate the audio fidelity capabilities of the autoencoder. On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder. Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
 
 | Ground truth | Autoencoder reconstruction |
 |-|-|
