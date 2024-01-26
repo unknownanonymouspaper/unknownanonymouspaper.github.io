@@ -3,9 +3,9 @@ Our model can generate **variable-length, long-form stereo music at 44.1kHz**:
 
 | Generation by our model | Prompt |
 | ------ | ----------------------- |
-|  <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | ?? |
-|  <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | ?? |
-|  <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | ?? |
+|  <audio controls preload=False><source src="audio/Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM |
+|  <audio controls preload=False><source src="audio/Calm meditation music to play in a spa lobby.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Calm meditation music to play in a spa lobby |
+|  <audio controls preload=False><source src="audio/drum solo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | drum solo |
 
 Differently from pervious state-of-the-art models, ours can generate **stereo sound effects at 44.1kHz**:
 
