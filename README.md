@@ -64,7 +64,7 @@ Note that the rest of examples in this website (95 sec music, or 10 sec sound ef
 | Our Model | MusicGen-large | MusicGen-stereo | AudioLDM2 | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 32kHz)* | *(mono, 48kHz)* |
 | ------ | -------------- | --------------- | --------- |
-| <audio controls preload=False><source src="audio/ZK5M3DZejzk_stableaudio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_musicgenlarge.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_musicgenstereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| <audio controls preload=False><source src="audio/ZK5M3DZejzk_stableaudio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_musicgenlarge.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_musicgenstereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 
 ## Sound effects: comparison with state-of-the-art
