@@ -1,27 +1,22 @@
 
-Our model can generate long-form, variable-length stereo music at 44.1kHz like this one:
+Our model can generate long-form stereo music at 44.1kHz like this one:
 
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+| Prompt | Generation by our model |
+| ------ | ----------------------- |
+| ?? | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| ?? | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| ?? | <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+
 
 Differently from pervious state-of-the-art models, ours can generate stereo sound effects at 44.1kHz like those ones:
 
-**Prompt**: Motorbike passing by. High-quality. Stereo.
+| Prompt | Generation by our model |
+| ------ | ----------------------- |
+| Motorbike passing by. High-quality. Stereo. | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| Sports car passing by. High-quality. Stereo. | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| Fire crackling. High-quality. | <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
 
-<audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-**Prompt**: Sports car passing by. High-quality. Stereo.
-
-<audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
-
-**Prompt**: Fire crackling. High-quality.
-
-<audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
-
-????
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
 ## Variable-length music
 
