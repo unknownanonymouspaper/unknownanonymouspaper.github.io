@@ -1,7 +1,7 @@
 
 Our model can generate **variable-length and long-form stereo music at 44.1kHz**:
 
-| Generated Music | Prompt |
+| Generated Stereo Music | Prompt |
 | --------------- | ------ |
 | <audio controls preload=False><source src="audio/Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM |
 | <audio controls preload=False><source src="audio/Calm meditation music to play in a spa lobby.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Calm meditation music to play in a spa lobby |
@@ -9,7 +9,7 @@ Our model can generate **variable-length and long-form stereo music at 44.1kHz**
 
 Differently from pervious state-of-the-art models, ours can generate **stereo sound effects at 44.1kHz**:
 
-| Generated Sounds | Prompt |
+| Generated Stereo Sounds | Prompt |
 | --------------- | ------ |
 | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Sports car passing by. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality, stereo. |
