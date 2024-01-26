@@ -3,22 +3,21 @@ Our model can generate long-form, variable-length stereo music at 44.1kHz like t
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-And stereo sound effects at 44.1kHz like those ones:
+Differently from pervious state-of-the-art models, ours can generate stereo sound effects at 44.1kHz like those ones:
 
-Prompt #1: Motorbike passing by. High-quality. Stereo.
+**Prompt**: Motorbike passing by. High-quality. Stereo.
 
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+<audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-Prompt #2: Sports car passing by. High-quality. Stereo.
+**Prompt**: Sports car passing by. High-quality. Stereo.
 
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+<audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
+**Prompt**: Fire crackling. High-quality.
 
-## Stereo sound effects
+<audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-Differently from pervious state-of-the-art models, ours can generate stereo sound effects.
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
+????
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
@@ -42,17 +41,21 @@ Note that the rest of examples in this website (95 sec music, or 10 sec sound ef
 
 ## Variable-length sound effects
 
-30 sec:
+**[60 sec] Prompt #?**: ?
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-60 sec:
+**[60 sec] Prompt #?**: ?
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
+**[60 sec] Prompt #?**: ?
+
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
+
+**[90 sec] Prompt # ?**: Hammering wood at 120 bpm.
+
+<audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
 Note that the rest of examples in this website (95 sec music, or 10 sec sound effects) are generated with the same variable-length model that can generate both music and sound effects at 44.1kHz stereo.
 
