@@ -85,9 +85,13 @@ Note that the rest of examples in this website (95 sec music, or 10 sec sound ef
 
 ## Autoencoder: reconstruction examples
 
-Explain a little bit wht the user wil listen here..
+This experiment is to evaluate the audio fidelity capabilities of the autoencoder.
 
-| Ground-truth | Autoencoder reconstruction |
+On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder.
+
+Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
+
+| Ground truth | Autoencoder reconstruction |
 |-|-|
 | <audio controls preload=False><source src="audio/1197.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/1197_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | <audio controls preload=False><source src="audio/1243.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/1243_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
