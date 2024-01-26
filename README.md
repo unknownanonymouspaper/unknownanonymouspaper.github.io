@@ -1,13 +1,5 @@
 
-Our model can generate **variable-length, long-form stereo music at 44.1kHz**:
-
-| Generation by our model | Prompt |
-| ------ | ----------------------- |
-|  <audio controls preload=False><source src="audio/Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM |
-|  <audio controls preload=False><source src="audio/Calm meditation music to play in a spa lobby.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Calm meditation music to play in a spa lobby |
-|  <audio controls preload=False><source src="audio/drum solo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | drum solo |
-
-Certainly! Here's a rewritten version:
+Our model can generate **variable-length and long-form stereo music at 44.1kHz**:
 
 | Generated Audio | Prompt |
 | --------------- | ------ |
@@ -16,15 +8,6 @@ Certainly! Here's a rewritten version:
 | <audio controls preload=False><source src="audio/drum solo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Drum solo |
 
 Differently from pervious state-of-the-art models, ours can generate **stereo sound effects at 44.1kHz**:
-
-| Generation by our model | Prompt |
-| ------ | ----------------------- |
-| <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Motorbike passing by. High-quality. Stereo. |
-| <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Sports car passing by. High-quality. Stereo. |
-| <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Fire crackling. High-quality. | 
-| <audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Hammering wood at 120 bpm. |
-
-Certainly! Here's a rewritten version:
 
 | Generated Audio | Prompt |
 | --------------- | ------ |
