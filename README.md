@@ -14,6 +14,7 @@ Differently from pervious state-of-the-art models, ours can generate **stereo so
 | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Sports car passing by. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/fireworks-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fireworks. High-fidelity, stereo. |
+| <audio controls preload=False><source src="audio/raining-on-grass-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Raining on grass. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/reverberant-foot-steps-inside-a-large-rocky-cave-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Reverberant footsteps inside a large rocky cave. High-quality, stereo. |
 
 Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo. We append "high-fidelity, stereo" to our prompts because it is generally helpful.
