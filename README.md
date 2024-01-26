@@ -7,10 +7,9 @@ And stereo sound effects at 44.1kHz like this one:
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-
 ## Stereo sound effects
 
-This project is built around using markdown content to make a website. 
+Differently from pervious state-of-the-art models, ours can generate stereo sound effects.
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
@@ -32,25 +31,23 @@ This project is built around using markdown content to make a website.
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
-Note that the rest of examples in this website (95 sec music, or 10 sec sound effects) are generated with the same variable-length model.
-
+Note that the rest of examples in this website (95 sec music, or 10 sec sound effects) are generated with the same variable-length model that can generate both music and sound effects at 44.1kHz stereo.
 
 ## Variable-length sound effects
 
-30 sec music:
+30 sec:
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
-60 sec music:
+60 sec:
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
 <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
 
-Note that the rest of examples in this website (95 sec music, or 10 sec sound effects) are generated with the same variable-length model.
-
+Note that the rest of examples in this website (95 sec music, or 10 sec sound effects) are generated with the same variable-length model that can generate both music and sound effects at 44.1kHz stereo.
 
 ## Long-form stereo music: comparison with state-of-the-art
 
