@@ -83,7 +83,7 @@ Note that the rest of examples in this website (95 sec music, or 10 sec sound ef
 | ------ | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/37008_stableaudio_audio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/37008_audiogen_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/37008_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-## Autoencoder: reconstruction examples
+## Autoencoder: reconstructions
 
 This experiment is to evaluate the audio fidelity capabilities of the autoencoder. On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder. Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
 
@@ -91,7 +91,6 @@ This experiment is to evaluate the audio fidelity capabilities of the autoencode
 |-|-|
 | <audio controls preload=False><source src="audio/1197.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/1197_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | <audio controls preload=False><source src="audio/1243.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/1243_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| <audio controls preload=False><source src="audio/1527.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/1527_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | <audio controls preload=False><source src="audio/206251.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/206251_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | <audio controls preload=False><source src="audio/233076.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/233076_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | <audio controls preload=False><source src="audio/451.flac" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls preload=False><source src="audio/451_ae.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
