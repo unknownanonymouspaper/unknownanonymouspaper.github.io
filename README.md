@@ -3,8 +3,8 @@ Our model can generate **variable-length and long-form stereo music at 44.1kHz**
 
 | Generated Stereo Music | Prompt |
 | --------------- | ------ |
-| <audio controls preload=False><source src="audio/drum solo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Drum solo. |
-| <audio controls preload=False><source src="audio/drum solo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Drum solo. |
+| <audio controls preload=False><source src="audio/berlin-techno-rave-drum-machine-kick-ARP-synthesizer-dark-moody-hypnotic-evolving-135-bpm.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Berlin techno, rave, drum machine, kick, ARP synthesizer, dark, moody, hypnotic, evolving, 135 BPM. Loop. |
+| <audio controls preload=False><source src="audio/uplifting-acoustic-loop-120-bpm.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Uplifting acoustic loop. 120 BPM. |
 | <audio controls preload=False><source src="audio/Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Disco, Driving Drum Machine, Synthesizer, Bass, Piano, Guitars, Instrumental, Clubby, Euphoric, Chicago, New York, 115 BPM. |
 | <audio controls preload=False><source src="audio/Calm meditation music to play in a spa lobby.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Calm meditation music to play in a spa lobby. |
 | <audio controls preload=False><source src="audio/drum solo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Drum solo. |
