@@ -13,13 +13,13 @@ Differently from pervious state-of-the-art models, ours can generate **stereo so
 
 | Generated Stereo Sounds | Prompt |
 | --------------- | ------ |
-| <audio controls preload=False><source src="audio/hit-fighting-and-action-sounds-high-fidelity.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Hit. Fighting and action sounds. High-quality. |
+| <audio controls preload=False><source src="audio/door-slam-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Door slam. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Sports car passing by. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Motorbike passing by. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/fireworks-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fireworks. High-fidelity, stereo. |
 | <audio controls preload=False><source src="audio/reverberant-foot-steps-inside-a-large-rocky-cave-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Reverberant footsteps inside a large rocky cave. High-quality, stereo. |
 
-Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo. We append "high-fidelity, stereo" to our prompts because it is generally helpful.
+Note that all the examples in this website are generated with the same model that can generate both variable-length music and sound effects at 44.1kHz stereo. We append "high-quality, stereo" to our prompts because it is generally helpful.
 
 ## Long-form stereo music: comparison with state-of-the-art
 
