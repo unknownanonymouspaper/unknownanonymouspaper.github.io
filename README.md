@@ -1,70 +1,33 @@
 
-Our model can generate long-form stereo music at 44.1kHz like this one:
+Our model can generate **variable-length, long-form stereo music at 44.1kHz**:
 
-| Prompt | Generation by our model |
+| Generation by our model | Prompt |
 | ------ | ----------------------- |
-| ?? | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| ?? | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| ?? | <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+|  <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | ?? |
+|  <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | ?? |
+|  <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | ?? |
 
+Differently from pervious state-of-the-art models, ours can generate **stereo sound effects at 44.1kHz**:
 
-Differently from pervious state-of-the-art models, ours can generate stereo sound effects at 44.1kHz like those ones:
-
-| Prompt | Generation by our model |
+| Generation by our model | Prompt |
 | ------ | ----------------------- |
-| Motorbike passing by. High-quality. Stereo. | <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| Sports car passing by. High-quality. Stereo. | <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| Fire crackling. High-quality. | <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | 
+| <audio controls preload=False><source src="audio/motorbike-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Motorbike passing by. High-quality. Stereo. |
+| <audio controls preload=False><source src="audio/sports-car-passing-by-high-quality-stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Sports car passing by. High-quality. Stereo. |
+| <audio controls preload=False><source src="audio/fire-crackling-high-quality.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Fire crackling. High-quality. | 
+| <audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | Hammering wood at 120 bpm. |
 
-
-
-## Variable-length music
-
-30 sec music:
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-60 sec music:
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-Note that the rest of examples in this website (95 sec music, or 10 sec sound effects) are generated with the same variable-length model that can generate both music and sound effects at 44.1kHz stereo.
-
-## Variable-length sound effects
-
-**[60 sec] Prompt #?**: ?
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-**[60 sec] Prompt #?**: ?
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-**[60 sec] Prompt #?**: ?
-
-<audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-**[90 sec] Prompt # ?**: Hammering wood at 120 bpm.
-
-<audio controls preload=False><source src="audio/hammering-wood-at-120-bpm.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> 
-
-Note that the rest of examples in this website (95 sec music, or 10 sec sound effects) are generated with the same variable-length model that can generate both music and sound effects at 44.1kHz stereo.
+Note that all the examples in this website are generated with **the same model that can generate both variable-length music and sound effects at 44.1kHz stereo**.
 
 ## Long-form stereo music: comparison with state-of-the-art
 
-
-**Prompt # 1**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
+**Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
 
 | Our Model | MusicGen-large | MusicGen-stereo | AudioLDM2 | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 32kHz)* | *(mono, 48kHz)* |
 | ------ | -------------- | --------------- | --------- |
 | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_stableaudio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_musicgenlarge.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_musicgenstereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZTVMsW1h3bI_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-**Prompt #2**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
+**Prompt**: The commercial music features a groovy piano melody played over snare rolls in the first half of the loop. Right after, there is a drop that consists of a punchy "4 on the floor" kick pattern, shimmering hi hats, claps, groovy piano and wide synth lead melody. It sounds happy, fun, euphoric and exciting.
 
 | Our Model | MusicGen-large | MusicGen-stereo | AudioLDM2 | 
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(stereo, 32kHz)* | *(mono, 48kHz)* |
@@ -74,14 +37,14 @@ Note that the rest of examples in this website (95 sec music, or 10 sec sound ef
 
 ## Sound effects: comparison with state-of-the-art
 
-**Prompt # 1**: Clicking and sputtering then eventual revving of an idling engine.
+**Prompt**: Clicking and sputtering then eventual revving of an idling engine.
 
 | Model | Audiogen-medium | AudioLDM2 |
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(mono, 48kHz)* |
 | ------ | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/103136_stableaudio_audio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103136_audiogen_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103136_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-**Prompt #2**: Birds chirping loudly.
+**Prompt**: Birds chirping loudly.
 
 | Model | Audiogen-medium | AudioLDM2 |
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(mono, 48kHz)* |
