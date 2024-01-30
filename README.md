@@ -19,9 +19,9 @@ Differently from pervious state-of-the-art models, ours can generate **stereo so
 | <audio controls preload=False><source src="audio/fireworks-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Fireworks. High-quality, stereo. |
 | <audio controls preload=False><source src="audio/reverberant-foot-steps-inside-a-large-rocky-cave-high-quality-stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | Reverberant footsteps inside a large rocky cave. High-quality, stereo. |
 
-Note that all the examples in this website are generated with the same model that can generate both **variable-length music and sound effects** at 44.1kHz stereo. We append "high-quality, stereo" to our prompts because it is generally helpful.
+Note that all the examples in this website are generated with the same model that can generate both **variable-length music and sound effects** at 44.1kHz stereo. We append "high-quality, stereo" to our sound effects prompts because it is generally helpful.
 
-## Long-form stereo music: comparison with state-of-the-art
+## Long-form stereo music: comparison with state-of-the-art with MusicCaps prompts
 
 **Prompt**: This song contains someone strumming a melody on a mandolin while more people are whistling along. Then a mandolin, an e-bass and an acoustic guitar are playing a short melody in a lower key before breaking into the next part along with flutes and percussions. This song may be played outside by musicians performing. 
 
@@ -37,8 +37,9 @@ Note that all the examples in this website are generated with the same model tha
 | ------ | -------------- | --------------- | --------- |
 | <audio controls preload=False><source src="audio/ZK5M3DZejzk_stableaudio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_musicgenlarge.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_musicgenstereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/ZK5M3DZejzk_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
+These prompts/audios were used for the qualitative study we report in our paper.
 
-## Sound effects: comparison with state-of-the-art
+## Sound effects: comparison with state-of-the-art with AudioCaps prompts
 
 **Prompt**: Clicking and sputtering then eventual revving of an idling engine.
 
@@ -53,6 +54,8 @@ Note that all the examples in this website are generated with the same model tha
 | *(stereo, 44.1kHz)* | *(mono, 32kHz)* | *(mono, 48kHz)* |
 | ------ | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/37008_stableaudio_audio.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/37008_audiogen_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/37008_audioldm248k_stereo.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
+These prompts/audios were used for the qualitative study we report in our paper. Note the (randomly) selected prompts from AudioCaps did not require substantial stereo movement, resulting in renders that are relatively non-spatial.
 
 ## Autoencoder: reconstructions
 
