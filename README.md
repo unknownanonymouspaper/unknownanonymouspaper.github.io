@@ -59,7 +59,7 @@ These prompts/audios were used for the qualitative study we report in our paper.
 
 ## Autoencoder: reconstructions
 
-This experiment is to evaluate the audio fidelity capabilities of the autoencoder. On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder. Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
+This comparison is useful to evaluate the audio fidelity capabilities of the autoencoder. On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder. Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
 
 | Ground truth | Autoencoder reconstruction |
 |-|-|
